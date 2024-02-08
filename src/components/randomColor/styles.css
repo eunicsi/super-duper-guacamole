@@ -1,0 +1,30 @@
+.wrapper {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.wrapper button {
+	padding: 10px 20px;
+	background-color: black;
+	color: azure;
+	font-weight: bold;
+	font-size:  20px;
+	cursor: pointer;
+}
+
+.wrapper .color {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+}
+
+.wrapper .text {
+	font-size: 80px;
+}
